@@ -1,11 +1,11 @@
 const fs = require('fs')
 
-// fs.writeFileSync('./test.text','hello world ')
+// fs.writeFileSync('./test.txt','hello world ')
 
-// fs.writeFile('./test.text','hello',(err)=>{console.log(err)})
+// fs.writeFile('./test.txt','hello',(err)=>{console.log(err)})
 
 
-// fs.readFile('./test.text','utf-8',(err,data)=>{
+// fs.readFile('./test.txt','utf-8',(err,data)=>{
 //     if(err){
 //         console.log("error: ",err)
 //     }else{
@@ -15,6 +15,16 @@ const fs = require('fs')
 
 // console.log('hello')
 
-// fs.appendFileSync("./test.text",new Date().getDate().toLocaleString())
+// fs.appendFileSync("./test.txt",new Date().getDate().toLocaleString())
 
-fs.appendFileSync('./test.text','hey there\n')
+// fs.appendFileSync('./test.text','hey there\n')
+
+// fs.cpSync('./test.txt','copy.txt');
+// fs.unlinkSync('copy.txt')
+
+// const res=fs.statSync('./test.txt')
+
+// console.log(res)
+
+
+
