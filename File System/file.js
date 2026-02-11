@@ -5,7 +5,12 @@ const fs = require('fs')
 // fs.writeFile('./File System/test.text','hello',(err)=>{console.log(err)})
 
 
-const result=fs.readFile('./File System/test.text','utf-8',(err)=>{})
-console.log(result)
+fs.readFile('./File System/test.text','utf-8',(err,data)=>{
+    if(err){
+        console.log("error: ",err)
+    }else{
+        console.log(data)
+    }
+})
 
 // console.log('hello')
