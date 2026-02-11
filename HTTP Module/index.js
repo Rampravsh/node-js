@@ -9,7 +9,21 @@ const myServer = http.createServer((req, res) => {
   });
   //   console.log(req.socket);
   console.log("new req rec.");
-  res.end("Hello From Server");
+  switch (req.url) {
+    case '/':
+        res.end("homePage")
+        break;
+    case '/about':
+        res.end("aboutPage")
+        break;
+    case '/ram':
+        res.end("my page")
+        break;
+  
+    default:
+        res.end('404 Not Found')
+        break;
+  }
 });
 
 myServer.listen(8000, () => {

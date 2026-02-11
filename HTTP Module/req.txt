@@ -22,3 +22,11 @@ NaN /api/v1/users/test : new req received
 NaN /favicon.ico : new req received
 1770809906501 /api/v1/users/test : new req received
 1770809906591 /favicon.ico : new req received
+1770810170375 / : new req received
+1770810170514 /favicon.ico : new req received
+1770810190674 /about : new req received
+1770810190783 /favicon.ico : new req received
+1770810196229 /ram : new req received
+1770810196332 /favicon.ico : new req received
+1770810201675 /fjaskld : new req received
+1770810201781 /favicon.ico : new req received
