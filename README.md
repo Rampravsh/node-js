@@ -33,6 +33,17 @@ Demonstrates interaction with the operating system's file system.
   - Reading, writing, appending, and deleting files.
   - Using the `os` module to retrieve system information (e.g., CPU count).
 
+### 4. URL (`/URL`)
+
+This directory demonstrates how to parse URLs from incoming requests.
+
+- **Key File**: `index.js`
+- **Functionality**:
+  - Starts a server on port `8000`.
+  - Uses the `url` module to parse request URLs.
+  - Implements routing for `/`, `/about`, `/ram`, and `/contact`.
+  - Logs request timestamps and URLs to a local file `req.txt`.
+
 ## How to Run
 
 Ensure you have Node.js installed. You can run any of the scripts using the `node` command from the terminal.
@@ -49,4 +60,11 @@ node index.js
 ```bash
 cd "File System"
 node file.js
+```
+
+**Running the URL Example:**
+
+```bash
+cd "URL"
+npm start
 ```
