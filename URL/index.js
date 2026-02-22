@@ -24,6 +24,10 @@ const myServer = http.createServer((req, res) => {
     case "/ram":
       res.end("my page");
       break;
+    case "/contact":
+      if(req.method==='GET'){
+        res.end("<input type='text'/>")
+      }
 
     default:
       res.end("404 Not Found");
