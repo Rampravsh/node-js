@@ -28,6 +28,22 @@ const myServer = http.createServer((req, res) => {
       if(req.method==='GET'){
         res.end("<input type='text'/>")
       }
+    
+    case "/login":
+      if (req.method === "POST") {
+        let body = "";
+        req.on("data", (chunk) => {
+          body += chunk;
+        });
+        req.on("end", () => {
+          console.log(body);
+          res.end("login successful");
+        });
+      }
+      if (req.method === "GET") {
+        res.end("<form method='POST' action='/login'><input type='text' name='username'/><button>Login</button></form>");
+      }
+      break;
 
     default:
       res.end("404 Not Found");

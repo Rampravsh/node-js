@@ -50,3 +50,10 @@ NaN /favicon.ico : new req received
 1771074545392 /about?myName=ram%20pravesh%20kumar%20hh : new req received
 1771074554995 /about?myName=ram%20pravesh%20kumar : new req received
 1771417772218 / : new req received
+1772314520887 /about : new req received
+1772315421997 /login : new req received
+1772315455916 /login : new req received
+1772315889248 /login : new req received
+1772316635815 /login : new req received
+1772316646583 /login : new req received
+1772316688855 /login : new req received
